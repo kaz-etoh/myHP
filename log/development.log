@@ -1855,3 +1855,50 @@ Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bd
 
 
 Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-17 21:02:06 +1100
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from irb_binding at (irb):3)
+  Rendered user_mailer/registration_confirmation.html.erb within layouts/mailer (2.9ms)
+  Rendered user_mailer/registration_confirmation.text.erb within layouts/mailer (0.6ms)
+
+UserMailer#registration_confirmation: processed outbound mail in 255.1ms
+
+Sent mail to to@example.org (3858.6ms)
+Date: Mon, 23 Nov 2015 20:29:17 +1100
+From: from@example.com
+To: to@example.org
+Message-ID: <5652dc6d86839_7b5d3fca690201fc9964a@Kazuhisa-no-Air.mail>
+Subject: Registration confirmation
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5652dc6d833b5_7b5d3fca690201fc99567";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5652dc6d833b5_7b5d3fca690201fc99567
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+UserMailer#registration_confirmation
+
+Hi, find me in app/views/user_mailer/registration_confirmation.text.erb
+
+
+----==_mimepart_5652dc6d833b5_7b5d3fca690201fc99567
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <h1>UserMailer#registration_confirmation</h1>
+
+<p>
+  Hi, find me in app/views/user_mailer/registration_confirmation.html.erb
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_5652dc6d833b5_7b5d3fca690201fc99567--
+
