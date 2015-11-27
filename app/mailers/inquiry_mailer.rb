@@ -1,10 +1,11 @@
 class InquiryMailer < ActionMailer::Base
-  default from: "etoh.renrakusaki@gmail.com"
-  default to: "mchoco.kmint@gmail.com"
-
   def received_email(inquiry)
     @inquiry = inquiry
-    mail subject: "I get your inquiry."
+    mail(
+      to:       'etoh.renrakusaki@gmail.com',
+      from:     'etoh.renrakusaki@gmail.com',
+      subject:  'Thank you for quiry',
+      body:      body.to_s
+    )
   end
-
 end
