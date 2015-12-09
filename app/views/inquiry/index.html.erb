@@ -37,47 +37,48 @@
               </a>
               </div>
           </div>
+
+    <%= stylesheet_link_tag "custom", :media => "all" %>
+    <%= form_for @inquiry, :url => inquiry_confirm_path do |f| %>
+      <div class="page-header">
+        <h1>Inquiry</h1>
+      </div>
+
+      <% if @inquiry.errors.any? %>
+        <div class="alert alert-danger" role="alert">
+          <strong>There input is not collect.</strong>
+          <ul>
+            <% @inquiry.errors.each do |attr, msg| %>
+              <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+    <% end %>
+
+    <table class="table">
+      <tr>
+        <th>Name<span class="text-danger">(Mandantry)</span></th>
+        <td><%= f.text_field :name %></td>
+      </tr>
+      <tr>
+        <th>e-Mail address<span class="text-danger">(Mandantry)</span></th>
+        <td><%= f.text_field :email %></td>
+      </tr>
+      <tr>
+        <th>Contents</th>
+        <td><%= f.text_area :message %></td>
+      </tr>
+    </table>
+    <%= f.submit 'Confirm', class: 'btn btn-primary' %>
+    <% end %>
+    
     </main>
+
     <footer>
       <div class="container">
       Copyright 2015, Kazuhisa Etoh
       </div>
     </footer>
-
-
-<%= form_for @inquiry, :url => inquiry_confirm_path do |f| %>
-  <div class="page-header">
-    <h1>Inquiry</h1>
-  </div>
-
-  <% if @inquiry.errors.any? %>
-    <div class="alert alert-danger" role="alert">
-      <strong>There input is not collect.</strong>
-      <ul>
-        <% @inquiry.errors.each do |attr, msg| %>
-          <li><%= msg %></li>
-        <% end %>
-      </ul>
-    </div>
-<% end %>
-
-<table class="table">
-  <tr>
-    <th>Name<span class="text-danger">(Mandantry)</span></th>
-    <td><%= f.text_field :name %></td>
-  </tr>
-  <tr>
-    <th>e-Mail address<span class="text-danger">(Mandantry)</span></th>
-    <td><%= f.text_field :email %></td>
-  </tr>
-  <tr>
-    <th>Contents</th>
-    <td><%= f.text_area :message %></td>
-  </tr>
-</table>
-<%= f.submit 'Confirm', class: 'btn btn-primary' %>
-<% end %>
-
 
   </body>
 </html>
