@@ -1,0 +1,110 @@
+/*myhp.css*/
+
+html {
+  background-image: url('top1.jpg');
+  background-size: cover;
+}
+
+body {
+  height: 100%;
+  font family: Verdana, Arial;
+  font-size: 70px;
+}
+
+.container {
+  width: 100%;
+  position: relative; /*フッターを位置指定するための基準設定*/
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+}
+
+header {
+  position: absolute;
+  background-color: red;
+  height: 100px;
+  width: 100%;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+a[class＊="profile"] { 
+  color: skyblue; 
+}
+
+/*link1クラスのa要素がhoverする際のimgに対してマウスオーバー時に半透明化*/
+.link1 a:hover img {
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  -ms-filter: "alpha(opacity=60)";
+}
+
+/*link1親要素*/
+.link1 {
+  position: relative;
+  top: 250px;
+  width: 900px;
+  margin: 0 auto;
+}
+
+/*facebook link*/
+.link1-1 {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  display: inline-block;
+  float: left;
+  margin-right: 20px;
+  /* テキストを中央に表示させる設定 */
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/*github link*/
+.link1-2 {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  float: left;
+  margin-right: 20px;
+  /* テキストを中央に表示させる設定 */
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+/*linkedin link*/
+.link1-3 {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  float: left;
+  margin-right: 20px;
+  /* テキストを中央に表示させる設定 */
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+/*blog link*/
+.link1-4 {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  float: left;
+  margin-right: 20px;
+  /* テキストを中央に表示させる設定 */
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+footer {
+  position: absolute;
+  font-size: 18px;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  border-top: 1px solid silver;
+}

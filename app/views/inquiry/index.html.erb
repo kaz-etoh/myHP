@@ -1,41 +1,48 @@
 <!DOCTYPE html>
 <html lang="ja">
+
   <head>
     <meta charset="utf-8">
     <title>Profile and my applications</title>
-    <limk rel="stylesheet" href="default.css"
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+    <link rel="stylesheet" href="myhp.css">
   </head>
-  <body>
-    <h1>You can see the man, "Kazuhisa Etoh"</h1><br>
-    <p>
-      <h2>
-      <a href="https://www.facebook.com/kazuhisa.etoh" title="Facebook" class="link profile">
-              Facebook -my murmurs
-      </a>
-      </h2>
-    </p>
-    <p>
-      <h2>
-      <a href="https://github.com/kaz-etoh" title="github" class="link profile">
-              Github -locus of the study
-      </a>
-      </h2>
-    </p>
-    <p>
-      <h2>
-      <a href="https://jp.linkedin.com/in/kazuhisa-etoh-65ab88a7" title="Linkedin" class="link profile">
-              Linkedin -minimum profile
-      </a>
-      </h2>
-    </p>
-    <p>
-      <h2>
-      <a href="http://etoh1220.hatenablog.com" title="Blog" class="link profile">
-              Blog -clearing my head up
-      </a>
-      </h2>
-    </p>
 
+  <body>
+    <header>
+      <div class="container">
+      <h1>You can see, "Kazuhisa Etoh"</h1>
+      </div>
+    </header>
+    <main>
+          <div class="link1">
+              <div class="link1-1">
+              <a href="https://www.facebook.com/kazuhisa.etoh" title="Facebook" class="link profile">
+          <img src="facebook1.png" height="200" width="200">
+              </a>
+              </div>
+              <div class="link1-2">
+              <a href="https://github.com/kaz-etoh" title="github" class="link profile">
+          <img src="github1.png" height="200" width="200"> 
+            </a>
+            </div>
+            <div class="link1-3">
+              <a href="https://jp.linkedin.com/in/kazuhisa-etoh-65ab88a7" title="Linkedin" class="link profile">
+              <img src="linkedin.png" height="200" width="200"> 
+            </a>
+            </div>
+            <div class="link1-4">
+              <a href="http://etoh1220.hatenablog.com" title="Blog" class="link profile">
+              <img src="blog.png" height="200" width="300"> 
+              </a>
+              </div>
+          </div>
+    </main>
+    <footer>
+      <div class="container">
+      Copyright 2015, Kazuhisa Etoh
+      </div>
+    </footer>
 
 
 <%= form_for @inquiry, :url => inquiry_confirm_path do |f| %>
