@@ -1,25 +1,26 @@
 /*myhp.css*/
 
 html {
-  background-image: url('top1.jpg');
+  background-image: asset-path("top1.png", image);
   background-size: cover;
 }
 
 body {
   height: 100%;
   font family: Verdana, Arial;
-  font-size: 70px;
+  font-size: 25px;
 }
 
 .container {
   width: 100%;
   position: relative; /*フッターを位置指定するための基準設定*/
+  height: auto !important;　/* コンテンツの高さが画面に収まらない場合はそれに合わせる*/
+  height: 100%;　/* コンテンツの高さが画面より低い場合は画面の高さに合わせる*/
   min-height: 100%;
-  height: auto !important;
-  height: 100%;
 }
 
 header {
+  font-size: 70px;
   position: absolute;
   background-color: red;
   height: 100px;
@@ -27,6 +28,16 @@ header {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
+}
+
+footer {
+  position: absolute;
+  font-size: 18px;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  border-top: 1px solid silver;
 }
 
 a[class＊="profile"] { 
@@ -93,18 +104,25 @@ a[class＊="profile"] {
   margin: 0 auto;
   float: left;
   margin-right: 20px;
+  margin-bottom: 200px;
   /* テキストを中央に表示させる設定 */
   display: table-cell;
   text-align: center;
   vertical-align: middle;
 }
 
-footer {
-  position: absolute;
-  font-size: 18px;
-  bottom: 0;
-  width: 100%;
-  height: 50px;
-  text-align: center;
-  border-top: 1px solid silver;
+.page-header {
+  float: bottom;
+  margin-bottom: 10px;
 }
+
+.table {
+  float: bottom;
+  margin-bottom: 10px;
+}
+
+.page-header {
+  float: bottom;
+  margin-bottom: 10px;
+}
+
