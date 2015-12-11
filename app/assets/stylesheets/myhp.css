@@ -21,7 +21,7 @@ body {
 header {
   font-size: 70px;
   position: absolute;
-  background-color: red;
+  background-color: #FA8072;
   height: 100px;
   width: 100%;
   display: table-cell;
