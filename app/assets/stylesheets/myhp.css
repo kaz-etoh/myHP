@@ -1,13 +1,12 @@
 /*myhp.css*/
 
-html {
-  background-image: asset-path("top1.png", image);
-  background-size: cover;
-}
+html {}
 
 body {
+  background-image: url("top1.png");
+  background-size: cover;
   height: 100%;
-  font family: Verdana, Arial;
+  font-family: Verdana, Arial;
   font-size: 25px;
 }
 
@@ -30,15 +29,17 @@ header {
   vertical-align: middle;
 }
 
-footer {
-  position: absolute;
+/*footer {
+  position: relative;
+  margin-top: 50px;
   font-size: 18px;
-  bottom: 0;
+  bottom: 0px;
   width: 100%;
-  height: 50px;
+  min-height: 50px;
   text-align: center;
   border-top: 1px solid silver;
 }
+*/
 
 a[class＊="profile"] { 
   color: skyblue; 
@@ -104,7 +105,7 @@ a[class＊="profile"] {
   margin: 0 auto;
   float: left;
   margin-right: 20px;
-  margin-bottom: 200px;
+  margin-bottom: 400px;
   /* テキストを中央に表示させる設定 */
   display: table-cell;
   text-align: center;
@@ -113,16 +114,11 @@ a[class＊="profile"] {
 
 .page-header {
   float: bottom;
-  margin-bottom: 10px;
+  color: navy;
+  font-size: 30px;
 }
 
 .table {
   float: bottom;
-  margin-bottom: 10px;
+   font-size: 20px;
 }
-
-.page-header {
-  float: bottom;
-  margin-bottom: 10px;
-}
-

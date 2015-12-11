@@ -37,10 +37,9 @@
               </a>
               </div>
 
-          <br>
           <%= form_for @inquiry, :url => inquiry_confirm_path do |f| %>
             <div class="page-header">
-            <h2><strong>Inquiry</strong></h2>
+            <h2><b>Inquiry</b></h2>
             </div>
 
             <% if @inquiry.errors.any? %>
@@ -56,11 +55,27 @@
 
           <table class="table">
             <tr>
-              <th>Name<span class="text-danger">(Mandantry)</span></th>
+            <th>Name
+                <span class="text-danger">
+                  <font color="red">
+                    <span style="font-size:70%;">
+                      (Mandantry)
+                    </span>
+                  </font>
+                </span>
+            </th>
               <td><%= f.text_field :name %></td>
             </tr>
             <tr>
-              <th>e-Mail address<span class="text-danger">(Mandantry)</span></th>
+              <th>e-Mail address
+                <span class="text-danger">
+                  <font color="red">
+                    <span style="font-size:70%;">
+                    (Mandantry)
+                    </span>
+                  </font>
+                </span>
+              </th>
               <td><%= f.text_field :email %></td>
             </tr>
             <tr>
@@ -70,17 +85,17 @@
           </table>
           <%= f.submit 'Confirm', class: 'btn btn-primary' %>
           <% end %>
-
+          <br>
           </div>
         </div>
 
     </main>
 
-    <footer>
+ <!--    <footer>
       <div class="container">
       Copyright 2015, Kazuhisa Etoh
       </div>
-    </footer>
+    </footer> -->
 
   </body>
 </html>
