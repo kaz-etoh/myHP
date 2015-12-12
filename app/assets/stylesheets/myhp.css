@@ -29,11 +29,11 @@ body {
 header {
   font-size: 70px;
   position: absolute;
-  background-color: orangered;
+  background-color: red;
   height: 100px;
   width: 100%;
   min-width: 900px;
-  opacity: 0.8;
+  opacity: 0.6;
   filter: alpha(opacity=60);
   -ms-filter: "alpha(opacity=60)";
   /* テキストを中央に表示させる設定 */
