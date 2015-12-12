@@ -29,7 +29,7 @@ body {
 header {
   font-size: 70px;
   position: absolute;
-  background-color: #FA8072;
+  background-color: orangered;
   height: 100px;
   width: 100%;
   min-width: 900px;
