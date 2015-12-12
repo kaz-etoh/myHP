@@ -3,7 +3,6 @@
 html {}
 
 body {
-  min-width: 1000px;
   font-family: Verdana, Arial;
   font-size: 25px;
 }
@@ -33,7 +32,7 @@ header {
   background-color: #FA8072;
   height: 100px;
   width: 100%;
-  min-width: 100%;
+  min-width: 1000px;
   display: table-cell;
   text-align: center;
   vertical-align: middle;
