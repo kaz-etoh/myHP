@@ -2,6 +2,8 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8">
+    <meta name=”viewport” content=”width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no”>
+
     <title>Profile and my applications</title>
     <%= stylesheet_link_tag "myhp", media: "all", "data-turbolinks-track" => true %>
     <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
@@ -9,6 +11,9 @@
   </head>
 
   <body>
+    <!-- 背景を body タグで指定する代わりに、この div タグに指定する -->
+    <div class="background"></div>
+
     <header>
       <div class="container">
       <h1>You can see, "Kaz"</h1>
@@ -56,7 +61,7 @@
 
           <table class="table">
             <tr>
-            <th>Name
+            <th><b>Name</b>
                 <span class="text-danger">
                   <font color="red">
                     <span style="font-size:70%;">
@@ -68,7 +73,7 @@
               <td><%= f.text_field :name %></td>
             </tr>
             <tr>
-              <th>e-Mail address
+              <th><b>e-Mail address</b>
                 <span class="text-danger">
                   <font color="red">
                     <span style="font-size:70%;">
@@ -80,7 +85,7 @@
               <td><%= f.text_field :email %></td>
             </tr>
             <tr>
-              <th>Contents</th>
+              <th><b>Contents</b></th>
               <td><%= f.text_area :message %></td>
             </tr>
           </table>

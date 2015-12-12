@@ -3,11 +3,19 @@
 html {}
 
 body {
-  background-image: url("top1.png");
-  background-size: cover;
-  height: 100%;
   font-family: Verdana, Arial;
   font-size: 25px;
+}
+
+.background {
+  background-image: url("top1.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .container {
@@ -167,11 +175,12 @@ a[class＊="profile"] {
 
 .page-header {
   float: bottom;
-  color: navy;
+  color: mediumblue;
   font-size: 30px;
 }
 
 .table {
   float: bottom;
-   font-size: 20px;
+  color: seagreen;
+  font-size: 20px;
 }

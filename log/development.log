@@ -7120,3 +7120,214 @@ Started GET "/assets/blog2-668e7973fa40f348f24e0018a0067dd4b3180098dd391606ed5d7
 
 
 Started GET "/assets/top1.png" for ::1 at 2015-12-12 23:06:35 +1100
+
+
+Started GET "/" for ::1 at 2015-12-13 00:12:47 +1100
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by InquiryController#index as HTML
+  Rendered inquiry/index.html.erb within layouts/application (367.9ms)
+Completed 200 OK in 423ms (Views: 409.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/myhp.self-899b7aaa5d9b4682524b7c8fd68ba5f2e713d5a8dafca0e73d013ccfbb2a4ba9.css?body=1" for ::1 at 2015-12-13 00:12:47 +1100
+
+
+Started GET "/assets/top1.png" for ::1 at 2015-12-13 00:12:47 +1100
+
+
+Started GET "/" for ::1 at 2015-12-13 00:15:42 +1100
+Processing by InquiryController#index as HTML
+  Rendered inquiry/index.html.erb within layouts/application (26.5ms)
+Completed 200 OK in 51ms (Views: 50.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-805cca57aa9262ceb6526e0ecb92599693f888f28769992d388adb33b6026308.css?body=1" for ::1 at 2015-12-13 00:15:42 +1100
+
+
+Started GET "/assets/myhp.self-899b7aaa5d9b4682524b7c8fd68ba5f2e713d5a8dafca0e73d013ccfbb2a4ba9.css?body=1" for ::1 at 2015-12-13 00:15:42 +1100
+
+
+Started GET "/assets/blog2-668e7973fa40f348f24e0018a0067dd4b3180098dd391606ed5d7c06b7288972.png" for ::1 at 2015-12-13 00:15:42 +1100
+
+
+Started GET "/assets/top1.png" for ::1 at 2015-12-13 00:15:42 +1100
+
+
+Started GET "/" for ::1 at 2015-12-13 00:15:43 +1100
+Processing by InquiryController#index as HTML
+  Rendered inquiry/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 38ms (Views: 37.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-805cca57aa9262ceb6526e0ecb92599693f888f28769992d388adb33b6026308.css?body=1" for ::1 at 2015-12-13 00:15:43 +1100
+
+
+Started GET "/assets/myhp.self-899b7aaa5d9b4682524b7c8fd68ba5f2e713d5a8dafca0e73d013ccfbb2a4ba9.css?body=1" for ::1 at 2015-12-13 00:15:43 +1100
+
+
+Started GET "/assets/blog2-668e7973fa40f348f24e0018a0067dd4b3180098dd391606ed5d7c06b7288972.png" for ::1 at 2015-12-13 00:15:43 +1100
+
+
+Started GET "/assets/top1.png" for ::1 at 2015-12-13 00:15:43 +1100
+
+
+Started GET "/" for ::1 at 2015-12-13 00:15:48 +1100
+Processing by InquiryController#index as HTML
+  Rendered inquiry/index.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 90ms (Views: 89.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/myhp.self-899b7aaa5d9b4682524b7c8fd68ba5f2e713d5a8dafca0e73d013ccfbb2a4ba9.css?body=1" for ::1 at 2015-12-13 00:15:49 +1100
+
+
+Started GET "/assets/application.self-805cca57aa9262ceb6526e0ecb92599693f888f28769992d388adb33b6026308.css?body=1" for ::1 at 2015-12-13 00:15:49 +1100
+
+
+Started GET "/assets/blog2-668e7973fa40f348f24e0018a0067dd4b3180098dd391606ed5d7c06b7288972.png" for ::1 at 2015-12-13 00:15:49 +1100
+
+
+Started GET "/assets/top1.png" for ::1 at 2015-12-13 00:15:49 +1100
+
+
+Started GET "/" for ::1 at 2015-12-13 00:16:24 +1100
+Processing by InquiryController#index as HTML
+  Rendered inquiry/index.html.erb within layouts/application (20.7ms)
+Completed 200 OK in 43ms (Views: 42.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-805cca57aa9262ceb6526e0ecb92599693f888f28769992d388adb33b6026308.css?body=1" for ::1 at 2015-12-13 00:16:24 +1100
+
+
+Started GET "/assets/blog2-668e7973fa40f348f24e0018a0067dd4b3180098dd391606ed5d7c06b7288972.png" for ::1 at 2015-12-13 00:16:24 +1100
+
+
+Started GET "/assets/myhp.self-899b7aaa5d9b4682524b7c8fd68ba5f2e713d5a8dafca0e73d013ccfbb2a4ba9.css?body=1" for ::1 at 2015-12-13 00:16:24 +1100
+
+
+Started GET "/assets/top1.png" for ::1 at 2015-12-13 00:16:24 +1100
+
+
+Started GET "/" for ::1 at 2015-12-13 00:17:42 +1100
+Processing by InquiryController#index as HTML
+  Rendered inquiry/index.html.erb within layouts/application (55.7ms)
+Completed 200 OK in 89ms (Views: 88.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-805cca57aa9262ceb6526e0ecb92599693f888f28769992d388adb33b6026308.css?body=1" for ::1 at 2015-12-13 00:17:42 +1100
+
+
+Started GET "/assets/blog2-668e7973fa40f348f24e0018a0067dd4b3180098dd391606ed5d7c06b7288972.png" for ::1 at 2015-12-13 00:17:42 +1100
+
+
+Started GET "/assets/myhp.self-ca284a5d956abaeee60ab3f2e35a0d64f6a7294474ff560bebd91eccd65f1388.css?body=1" for ::1 at 2015-12-13 00:17:42 +1100
+
+
+Started GET "/assets/top1.png" for ::1 at 2015-12-13 00:17:42 +1100
+
+
+Started GET "/" for ::1 at 2015-12-13 00:18:23 +1100
+Processing by InquiryController#index as HTML
+  Rendered inquiry/index.html.erb within layouts/application (52.1ms)
+Completed 200 OK in 83ms (Views: 81.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-805cca57aa9262ceb6526e0ecb92599693f888f28769992d388adb33b6026308.css?body=1" for ::1 at 2015-12-13 00:18:23 +1100
+
+
+Started GET "/assets/blog2-668e7973fa40f348f24e0018a0067dd4b3180098dd391606ed5d7c06b7288972.png" for ::1 at 2015-12-13 00:18:23 +1100
+
+
+Started GET "/assets/myhp.self-c66883d08aa0166daba435be407b6ab53c5d41f097c3047f8d5c7a59a161c82e.css?body=1" for ::1 at 2015-12-13 00:18:23 +1100
+
+
+Started GET "/assets/top1.png" for ::1 at 2015-12-13 00:18:23 +1100
+
+
+Started GET "/" for ::1 at 2015-12-13 00:19:30 +1100
+Processing by InquiryController#index as HTML
+  Rendered inquiry/index.html.erb within layouts/application (34.6ms)
+Completed 200 OK in 57ms (Views: 56.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-805cca57aa9262ceb6526e0ecb92599693f888f28769992d388adb33b6026308.css?body=1" for ::1 at 2015-12-13 00:19:30 +1100
+
+
+Started GET "/assets/myhp.self-f6e4946b3b75847a56f48f3325f97354da49540def79dc2f7dd2e9ae91f768f3.css?body=1" for ::1 at 2015-12-13 00:19:30 +1100
+
+
+Started GET "/assets/blog2-668e7973fa40f348f24e0018a0067dd4b3180098dd391606ed5d7c06b7288972.png" for ::1 at 2015-12-13 00:19:30 +1100
+
+
+Started GET "/assets/top1.png" for ::1 at 2015-12-13 00:19:30 +1100
+
+
+Started GET "/" for ::1 at 2015-12-13 00:19:53 +1100
+Processing by InquiryController#index as HTML
+  Rendered inquiry/index.html.erb within layouts/application (50.8ms)
+Completed 200 OK in 75ms (Views: 74.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/myhp.self-af9992f0d91bda79f5a62bee1c4421638b379b165683df91697b59d31a531ca3.css?body=1" for ::1 at 2015-12-13 00:19:53 +1100
+
+
+Started GET "/assets/application.self-805cca57aa9262ceb6526e0ecb92599693f888f28769992d388adb33b6026308.css?body=1" for ::1 at 2015-12-13 00:19:53 +1100
+
+
+Started GET "/assets/blog2-668e7973fa40f348f24e0018a0067dd4b3180098dd391606ed5d7c06b7288972.png" for ::1 at 2015-12-13 00:19:53 +1100
+
+
+Started GET "/assets/top1.png" for ::1 at 2015-12-13 00:19:53 +1100
+
+
+Started GET "/" for ::1 at 2015-12-13 00:21:48 +1100
+Processing by InquiryController#index as HTML
+  Rendered inquiry/index.html.erb within layouts/application (42.0ms)
+Completed 200 OK in 68ms (Views: 66.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-805cca57aa9262ceb6526e0ecb92599693f888f28769992d388adb33b6026308.css?body=1" for ::1 at 2015-12-13 00:21:48 +1100
+
+
+Started GET "/assets/myhp.self-267bb52948d5f51d2f73ce0acebb447c4ee8602255cb656d35a983e0e295cd73.css?body=1" for ::1 at 2015-12-13 00:21:48 +1100
+
+
+Started GET "/assets/blog2-668e7973fa40f348f24e0018a0067dd4b3180098dd391606ed5d7c06b7288972.png" for ::1 at 2015-12-13 00:21:48 +1100
+
+
+Started GET "/assets/top1.png" for ::1 at 2015-12-13 00:21:48 +1100
+
+
+Started GET "/" for ::1 at 2015-12-13 00:22:26 +1100
+Processing by InquiryController#index as HTML
+  Rendered inquiry/index.html.erb within layouts/application (44.9ms)
+Completed 200 OK in 66ms (Views: 65.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-805cca57aa9262ceb6526e0ecb92599693f888f28769992d388adb33b6026308.css?body=1" for ::1 at 2015-12-13 00:22:26 +1100
+
+
+Started GET "/assets/blog2-668e7973fa40f348f24e0018a0067dd4b3180098dd391606ed5d7c06b7288972.png" for ::1 at 2015-12-13 00:22:26 +1100
+
+
+Started GET "/assets/myhp.self-982c419cb41f84e261297a4cc487994f79c783a40d7081fca2366ee17d342362.css?body=1" for ::1 at 2015-12-13 00:22:26 +1100
+
+
+Started GET "/assets/top1.png" for ::1 at 2015-12-13 00:22:26 +1100
+
+
+Started GET "/" for ::1 at 2015-12-13 00:22:56 +1100
+Processing by InquiryController#index as HTML
+  Rendered inquiry/index.html.erb within layouts/application (47.9ms)
+Completed 200 OK in 77ms (Views: 75.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-805cca57aa9262ceb6526e0ecb92599693f888f28769992d388adb33b6026308.css?body=1" for ::1 at 2015-12-13 00:22:56 +1100
+
+
+Started GET "/assets/myhp.self-dedede46fe63f35d5fa10348d2505a457abe9846a5e0038814de90352e0e7889.css?body=1" for ::1 at 2015-12-13 00:22:56 +1100
+
+
+Started GET "/assets/blog2-668e7973fa40f348f24e0018a0067dd4b3180098dd391606ed5d7c06b7288972.png" for ::1 at 2015-12-13 00:22:57 +1100
+
+
+Started GET "/assets/top1.png" for ::1 at 2015-12-13 00:22:57 +1100
