@@ -7331,3 +7331,16 @@ Started GET "/assets/blog2-668e7973fa40f348f24e0018a0067dd4b3180098dd391606ed5d7
 
 
 Started GET "/assets/top1.png" for ::1 at 2015-12-13 00:22:57 +1100
+
+
+Started GET "/" for ::1 at 2015-12-13 00:32:05 +1100
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by InquiryController#index as HTML
+  Rendered inquiry/index.html.erb within layouts/application (336.8ms)
+Completed 200 OK in 392ms (Views: 378.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/myhp.self-ec5af1b9225f5afd84c5bc1d5907b8912236a96adb51750f99c742d1361dc4b0.css?body=1" for ::1 at 2015-12-13 00:32:06 +1100
+
+
+Started GET "/assets/top1.png" for ::1 at 2015-12-13 00:32:06 +1100

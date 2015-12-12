@@ -33,6 +33,7 @@ header {
   background-color: #FA8072;
   height: 100px;
   width: 100%;
+  min-width: 100%;
   display: table-cell;
   text-align: center;
   vertical-align: middle;
