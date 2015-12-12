@@ -28,8 +28,9 @@ body {
 
 header {
   font-size: 70px;
+  color: ;
   position: absolute;
-  background-color: red;
+  background-color: crimson;
   height: 100px;
   width: 100%;
   min-width: 900px;
