@@ -6709,3 +6709,160 @@ Started GET "/assets/top1.png" for ::1 at 2015-12-12 18:53:39 +1100
 
 
 Started GET "/assets/blog2-668e7973fa40f348f24e0018a0067dd4b3180098dd391606ed5d7c06b7288972.png" for ::1 at 2015-12-12 18:53:39 +1100
+
+
+Started GET "/" for ::1 at 2015-12-12 19:55:28 +1100
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by InquiryController#index as HTML
+  Rendered inquiry/index.html.erb within layouts/application (212.4ms)
+Completed 200 OK in 380ms (Views: 337.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/myhp.self-d5bc00f71807f36edb840b9c41901d5ca9578fff49c5a3db86830b0726f42ec9.css?body=1" for ::1 at 2015-12-12 19:55:29 +1100
+
+
+Started GET "/assets/top1.png" for ::1 at 2015-12-12 19:55:29 +1100
+
+
+Started GET "/" for ::1 at 2015-12-12 19:57:00 +1100
+Processing by InquiryController#index as HTML
+  Rendered inquiry/index.html.erb within layouts/application (68.2ms)
+Completed 200 OK in 128ms (Views: 127.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-805cca57aa9262ceb6526e0ecb92599693f888f28769992d388adb33b6026308.css?body=1" for ::1 at 2015-12-12 19:57:01 +1100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-12 19:57:01 +1100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-12 19:57:01 +1100
+
+
+Started GET "/assets/inquerys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-12 19:57:01 +1100
+
+
+Started GET "/assets/myhp.self-0bc90b90f13e9230709e5dc07751781b37f7d406fdbd7aad255ef47ec7af5092.css?body=1" for ::1 at 2015-12-12 19:57:01 +1100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-12 19:57:01 +1100
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-12 19:57:01 +1100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-12 19:57:01 +1100
+
+
+Started GET "/assets/top1.png" for ::1 at 2015-12-12 19:57:01 +1100
+
+
+Started GET "/assets/blog2-668e7973fa40f348f24e0018a0067dd4b3180098dd391606ed5d7c06b7288972.png" for ::1 at 2015-12-12 19:57:01 +1100
+
+
+Started GET "/" for ::1 at 2015-12-12 20:01:12 +1100
+Processing by InquiryController#index as HTML
+  Rendered inquiry/index.html.erb within layouts/application (67.1ms)
+Completed 200 OK in 138ms (Views: 137.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-805cca57aa9262ceb6526e0ecb92599693f888f28769992d388adb33b6026308.css?body=1" for ::1 at 2015-12-12 20:01:12 +1100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-12 20:01:12 +1100
+
+
+Started GET "/assets/inquerys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-12 20:01:12 +1100
+
+
+Started GET "/assets/myhp.self-a27a0dc4895ecc39feee4ef41b37f60c9c662af8bfb827c4977e0dcd76d03855.css?body=1" for ::1 at 2015-12-12 20:01:12 +1100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-12 20:01:12 +1100
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-12 20:01:12 +1100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-12 20:01:12 +1100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-12 20:01:12 +1100
+
+
+Started GET "/assets/blog2-668e7973fa40f348f24e0018a0067dd4b3180098dd391606ed5d7c06b7288972.png" for ::1 at 2015-12-12 20:01:12 +1100
+
+
+Started GET "/assets/top1.png" for ::1 at 2015-12-12 20:01:12 +1100
+
+
+Started GET "/" for ::1 at 2015-12-12 20:01:52 +1100
+Processing by InquiryController#index as HTML
+  Rendered inquiry/index.html.erb within layouts/application (46.5ms)
+Completed 200 OK in 87ms (Views: 86.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-805cca57aa9262ceb6526e0ecb92599693f888f28769992d388adb33b6026308.css?body=1" for ::1 at 2015-12-12 20:01:52 +1100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-12 20:01:52 +1100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-12 20:01:52 +1100
+
+
+Started GET "/assets/inquerys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-12 20:01:52 +1100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-12 20:01:52 +1100
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-12 20:01:52 +1100
+
+
+Started GET "/assets/myhp.self-ee390378aa5b28f771e2840d6cf3f7e07d6b98c32c837beea069e5d52faff691.css?body=1" for ::1 at 2015-12-12 20:01:52 +1100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-12 20:01:52 +1100
+
+
+Started GET "/assets/blog2-668e7973fa40f348f24e0018a0067dd4b3180098dd391606ed5d7c06b7288972.png" for ::1 at 2015-12-12 20:01:52 +1100
+
+
+Started GET "/assets/top1.png" for ::1 at 2015-12-12 20:01:52 +1100
+
+
+Started GET "/" for ::1 at 2015-12-12 20:02:13 +1100
+Processing by InquiryController#index as HTML
+  Rendered inquiry/index.html.erb within layouts/application (37.8ms)
+Completed 200 OK in 93ms (Views: 92.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-805cca57aa9262ceb6526e0ecb92599693f888f28769992d388adb33b6026308.css?body=1" for ::1 at 2015-12-12 20:02:13 +1100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-12 20:02:13 +1100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-12 20:02:14 +1100
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-12 20:02:14 +1100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-12 20:02:14 +1100
+
+
+Started GET "/assets/inquerys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-12 20:02:14 +1100
+
+
+Started GET "/assets/myhp.self-f655ce7933fc5d0c1abc3bca9075748ceaaec51d746e8c371b20c339cef0e834.css?body=1" for ::1 at 2015-12-12 20:02:14 +1100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-12 20:02:14 +1100
+
+
+Started GET "/assets/blog2-668e7973fa40f348f24e0018a0067dd4b3180098dd391606ed5d7c06b7288972.png" for ::1 at 2015-12-12 20:02:14 +1100
+
+
+Started GET "/assets/top1.png" for ::1 at 2015-12-12 20:02:14 +1100
