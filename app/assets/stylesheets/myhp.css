@@ -4,7 +4,7 @@ html {}
 
 body {
   background-image: url("top1.png");
-  background-size: contain;
+  background-size: cover;
   height: 100%;
   font-family: Verdana, Arial;
   font-size: 25px;
