@@ -50,6 +50,7 @@ a[class＊="profile"] {
   opacity: 0.6;
   filter: alpha(opacity=60);
   -ms-filter: "alpha(opacity=60)";
+  transition: 0.5s;
 }
 
 /*link1親要素*/

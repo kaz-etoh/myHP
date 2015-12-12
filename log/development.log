@@ -6624,3 +6624,88 @@ Started GET "/assets/blog2-668e7973fa40f348f24e0018a0067dd4b3180098dd391606ed5d7
 
 
 Started GET "/assets/top1.png" for ::1 at 2015-12-12 10:40:50 +1100
+
+
+Started GET "/" for ::1 at 2015-12-12 18:52:58 +1100
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by InquiryController#index as HTML
+  Rendered inquiry/index.html.erb within layouts/application (212.9ms)
+Completed 200 OK in 347ms (Views: 330.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/myhp.self-0e3a7ed5dbc5e51a96242114c4f033dba673be5e7b091bcacd90d998bec45a84.css?body=1" for ::1 at 2015-12-12 18:52:59 +1100
+
+
+Started GET "/assets/top1.png" for ::1 at 2015-12-12 18:52:59 +1100
+
+
+Started GET "/" for ::1 at 2015-12-12 18:53:23 +1100
+Processing by InquiryController#index as HTML
+  Rendered inquiry/index.html.erb within layouts/application (35.4ms)
+Completed 200 OK in 85ms (Views: 84.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-805cca57aa9262ceb6526e0ecb92599693f888f28769992d388adb33b6026308.css?body=1" for ::1 at 2015-12-12 18:53:23 +1100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-12 18:53:23 +1100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-12 18:53:23 +1100
+
+
+Started GET "/assets/myhp.self-b574d0c1c995c5d45cc19760117f7bdd0f47d2595ab19fcf8b9a8ead44f2d9d9.css?body=1" for ::1 at 2015-12-12 18:53:23 +1100
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-12 18:53:23 +1100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-12 18:53:23 +1100
+
+
+Started GET "/assets/inquerys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-12 18:53:23 +1100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-12 18:53:23 +1100
+
+
+Started GET "/assets/top1.png" for ::1 at 2015-12-12 18:53:23 +1100
+
+
+Started GET "/assets/blog2-668e7973fa40f348f24e0018a0067dd4b3180098dd391606ed5d7c06b7288972.png" for ::1 at 2015-12-12 18:53:23 +1100
+
+
+Started GET "/" for ::1 at 2015-12-12 18:53:39 +1100
+Processing by InquiryController#index as HTML
+  Rendered inquiry/index.html.erb within layouts/application (21.1ms)
+Completed 200 OK in 78ms (Views: 77.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-805cca57aa9262ceb6526e0ecb92599693f888f28769992d388adb33b6026308.css?body=1" for ::1 at 2015-12-12 18:53:39 +1100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-12 18:53:39 +1100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-12 18:53:39 +1100
+
+
+Started GET "/assets/inquerys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-12 18:53:39 +1100
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-12 18:53:39 +1100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-12 18:53:39 +1100
+
+
+Started GET "/assets/myhp.self-0e3a7ed5dbc5e51a96242114c4f033dba673be5e7b091bcacd90d998bec45a84.css?body=1" for ::1 at 2015-12-12 18:53:39 +1100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-12 18:53:39 +1100
+
+
+Started GET "/assets/top1.png" for ::1 at 2015-12-12 18:53:39 +1100
+
+
+Started GET "/assets/blog2-668e7973fa40f348f24e0018a0067dd4b3180098dd391606ed5d7c06b7288972.png" for ::1 at 2015-12-12 18:53:39 +1100
