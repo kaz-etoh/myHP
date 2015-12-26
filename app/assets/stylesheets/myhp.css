@@ -1,4 +1,6 @@
 /*myhp.css*/
+@import "bootstrap-sprockets";
+@import "bootstrap";
 
 html {}
 
